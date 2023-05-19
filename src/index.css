@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100&family=Josefin+Sans:ital@1&family=Jua&family=Oswald:wght@600&family=Passions+Conflict&family=Roboto:ital,wght@1,300&family=Rubik+Dirt&display=swap');
+ 
+
+/* @font-face {
+   font-family:Gotham;
+   src: url(../Gotham-Font/GothamMedium.ttf);
+} */
+
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   box-sizing: border-box;
+}
+
+.navbar-brand{
+   font-family: 'Jua', sans-serif;
+   font-size: 38px !important;
+}
+
+.image img {
+   width: 100%;
+   transition: 0.8s;
+ }
+
+.image img:hover {
+   transform: scale(1.1);
+}
+
+/* .section-titel {
+ font-family:Gotham; 
+  
+} */
+.nav-item {
+   padding: 4px;
+}
+.about{
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.shadow-sm {
+   box-shadow: 0 .625rem .25rem rgba(0, 0, 0, .075);
+}
+
+
+.nav1 {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1030;
+}
+
+nav {
+   backdrop-filter: blur(20px);
+}
+
+.image img {
+   width: 65%;
+}
+
+.navbar-collapse{
+   margin-left: 200px;
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+   #btt {
+       margin-top: 30px !important;
+   }
+
+  .btn {
+   font-size: 13px !important;
+  }
+
+
+
+}
+
+@media only screen and (min-width:481px) and (max-width:576px) {
+
+   .image img{
+         
+       width: 50%;
+   }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+   .image img{
+         
+       width: 50%;
+   }
+}
